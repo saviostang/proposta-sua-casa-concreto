@@ -735,9 +735,9 @@ html, body { background: #121325 !important; margin: 0 !important; padding: 0 !i
       <div class="card lado rv">
         <h3>O que a Sua Casa Concreto investe</h3>
         <div class="linha"><span data-o="r_planoTxt">Mensalidade, plano Essencial com 1 assistente</span><b data-o="r_mens">R$ 3.500</b></div>
-        <div class="linha"><span>Implantação, uma vez</span><b data-o="r_impl">R$ 4.500</b></div>
+        <div class="linha"><span>Implantação, uma vez</span><b data-o="r_impl">R$ 6.000</b></div>
         <div class="linha"><span>Horas do time no treinamento, uma vez</span><b data-o="r_onb">R$ 473</b></div>
-        <div class="linha tot"><span>No primeiro mês</span><b data-o="r_mud">R$ 8.473</b></div>
+        <div class="linha tot"><span>No primeiro mês</span><b data-o="r_mud">R$ 9.973</b></div>
       </div>
     </div>
     <p class="nota" data-o="r_cob" style="margin-top:10px">80 cotações com 3 fornecedores pedem cerca de 240 negociações por mês. O plano escolhido cobre 250.</p>
@@ -745,8 +745,8 @@ html, body { background: #121325 !important; margin: 0 !important; padding: 0 !i
     <div class="res res4">
       <div class="kpi rv"><b data-o="r_horas2">120 h</b><span data-o="r_pessTxt">por mês devolvidas ao time, o tempo de 0,8 pessoas em jornada integral</span></div>
       <div class="kpi rv"><b data-o="r_x">7,5x</b><span>retorno mensal para cada real da mensalidade</span></div>
-      <div class="kpi rv"><b data-o="r_pb">~7 dias</b><span>para a implantação se pagar</span></div>
-      <div class="kpi rv"><b data-o="r_12">R$ 268 mil</b><span data-o="r_12txt">de ganho líquido em 12 meses: R$ 315 mil de retorno no ano, menos R$ 47 mil investidos (mensalidades, implantação e horas de treinamento)</span></div>
+      <div class="kpi rv"><b data-o="r_pb">~9 dias</b><span>para a implantação se pagar</span></div>
+      <div class="kpi rv"><b data-o="r_12">R$ 267 mil</b><span data-o="r_12txt">de ganho líquido em 12 meses: R$ 315 mil de retorno no ano, menos R$ 48 mil investidos (mensalidades, implantação e horas de treinamento)</span></div>
     </div>
     <table class="cen rv" aria-label="Cenários de retorno">
       <thead><tr><th>Cenário</th><th>Saving sobre o volume cotado</th><th>Horas liberadas por mês</th><th>Retorno mensal</th><th>Retorno por real</th></tr></thead>
@@ -1307,7 +1307,7 @@ html, body { background: #121325 !important; margin: 0 !important; padding: 0 !i
         <p style="color:var(--txt);margin:0">Um serviço feito uma única vez, para a assistente entrar no fluxo de compras que a Sua Casa Concreto já tem.</p>
         <div class="setup">
           <span>Setup inicial · valor único</span>
-          <b data-o="p_impl">R$ 4.500</b>
+          <b data-o="p_impl">R$ 6.000</b>
           <small>Pago uma vez, o mesmo nos dois planos, inclusive na Black Friday. Inclui todo o setup e o treinamento de até 3 pessoas para usar a dgenny.</small>
         </div>
       </div>
@@ -1409,7 +1409,7 @@ html, body { background: #121325 !important; margin: 0 !important; padding: 0 !i
   try { if (new URLSearchParams(location.search).has('roteiro') || /roteiro/.test(location.hash)) root.classList.add('roteiro'); window.addEventListener('hashchange', function(){ root.classList.toggle('roteiro', /roteiro/.test(location.hash)); }); } catch(e) {}
 
   // PLANOS: n assistentes, nome, neg pacote mensal, preco mensalidade, impl implantação (valores de precos.py opcoes e da ficha)
-  var PLANOS = { 1:{n:1, nome:'plano Essencial com 1 assistente', neg:250, preco:3500, impl:4500}, 2:{n:1, nome:'plano Equipe com 1 assistente', neg:500, preco:5250, impl:4500} };
+  var PLANOS = { 1:{n:1, nome:'plano Essencial com 1 assistente', neg:250, preco:3500, impl:6000}, 2:{n:1, nome:'plano Equipe com 1 assistente', neg:500, preco:5250, impl:6000} };
   var st = { plano:1 };
   var HORAS_MES = 160, H_TREINO = 5;
 
